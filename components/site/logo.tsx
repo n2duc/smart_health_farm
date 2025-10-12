@@ -1,0 +1,13 @@
+import { Leaf } from 'lucide-react'
+import React from 'react'
+
+export default function Logo() {
+  return (
+    <a href="/" className='flex items-center gap-2'>
+      <div className='bg-primary dark:bg-white rounded-full size-8 flex items-center justify-center'>
+        <Leaf className='size-5 text-white dark:text-black' />
+      </div>
+      <span className='text-xl font-bold text-primary dark:text-white'>GOWA FOOD</span>
+    </a>
+  )
+}

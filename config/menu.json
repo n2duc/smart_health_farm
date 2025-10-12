@@ -1,0 +1,24 @@
+{
+  "navigationMenu": [
+    {
+      "label": "Sản phẩm",
+      "href": "/products"
+    },
+    {
+      "label": "Trang trại",
+      "href": "/farms"
+    },
+    {
+      "label": "Smart AI",
+      "href": "/ai"
+    },
+    {
+      "label": "Tư vấn",
+      "href": "/recommendations"
+    },
+    {
+      "label": "Về chúng tôi",
+      "href": "/about"
+    }
+  ]
+}
