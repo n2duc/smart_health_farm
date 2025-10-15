@@ -15,7 +15,7 @@ export default function ThemSwitcher() {
     <Button
       variant="ghost"
       size="icon"
-      className="group/toggle extend-touch-target size-8"
+      className="group/toggle extend-touch-target"
       onClick={toggleTheme}
       title="Toggle theme"
       aria-label="Toggle theme"
