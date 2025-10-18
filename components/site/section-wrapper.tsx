@@ -7,7 +7,7 @@ interface SectionWrapperProps {
 
 export default function SectionWrapper({ children, className }: SectionWrapperProps) {
   return (
-    <div className={cn("py-16 container mx-auto", className)}>
+    <div className={cn("py-16 container mx-auto space-y-10", className)}>
       {children}
     </div>
   )
