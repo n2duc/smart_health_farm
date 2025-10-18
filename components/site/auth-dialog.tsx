@@ -40,11 +40,11 @@ export default function AuthDialog({ isOpen, onClose, mode, onModeChange }: Auth
 
         <div className="text-center text-sm text-muted-foreground">
           Bằng cách {mode === "register" ? "đăng ký" : "đăng nhập"}, bạn đồng ý với{" "}
-          <Link href="/terms" className="p-0 h-auto text-sm">
+          <Link href="/terms" className="p-0 h-auto text-sm underline text-foreground">
             Điều khoản sử dụng
           </Link>{" "}
           và{" "}
-          <Link href="/privacy" className="p-0 h-auto text-sm">
+          <Link href="/privacy" className="p-0 h-auto text-sm underline text-foreground">
             Chính sách bảo mật
           </Link>
         </div>
