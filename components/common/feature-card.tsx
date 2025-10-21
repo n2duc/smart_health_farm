@@ -22,11 +22,13 @@ export default function FeatureCard({ feature }: { feature: FeatureItem }) {
             </li>
           ))}
         </ul>
-        <Link href={feature.href}>
+        {feature.href && (
           <Button variant="ghost" className="w-full">
-            Trải nghiệm ngay <ArrowRight className="size-4" />
+            <Link href={feature.href}>
+              Trải nghiệm ngay <ArrowRight className="size-4" />
+            </Link>
           </Button>
-        </Link>
+        )}
       </div>
     </div>
   )

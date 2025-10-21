@@ -1,5 +1,5 @@
 import { Badge } from "@/components/ui/badge";
-import SectionWrapper from "../section-wrapper";
+import { SectionWrapper } from "@/components/site";
 import { Heart, Shield, Sparkles, Truck } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import Image from "next/image";
@@ -28,11 +28,11 @@ export default function HeroSection() {
           </div>
           <div className="flex items-center gap-6">
             {heroData.map((item) => (
-              <div className="flex items-center gap-3" key={item.label}>
-                <div className="size-10 bg-secondary flex items-center justify-center">
+              <div className="flex flex-col xl:flex-row items-center gap-3" key={item.label}>
+                <div className="size-10 bg-secondary flex items-center justify-center flex-shrink-0">
                   <item.icon className="size-5" />
                 </div>
-                <div>
+                <div className="text-center xl:text-start">
                   <h3 className="text-base font-semibold">{item.label}</h3>
                   <p className="text-sm text-muted-foreground">{item.description}</p>
                 </div>

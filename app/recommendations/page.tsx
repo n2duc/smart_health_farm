@@ -1,5 +1,10 @@
+import { TestimonialsSection, HeroAdviseSection } from "@/components/section"
+
 export default function RecommendationsPage() {
   return (
-    <div>RecommendationsPage</div>
+    <>
+      <HeroAdviseSection />
+      <TestimonialsSection />
+    </>
   )
 }

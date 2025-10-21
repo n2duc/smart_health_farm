@@ -47,8 +47,10 @@ export default function RegisterForm() {
         setError("Đăng ký thất bại! Vui lòng thử lại");
       };
 
-      if (data.user && data.session) {
-        toast.success("Đăng ký thành công!");
+      if (data.user && data.user.id) {
+        toast.success("Đăng ký thành công!", {
+          description: "Vui lòng kiểm tra email để xác thực tài khoản",
+        });
       };
     } catch (error) {
       setError(error instanceof Error ? error.message : "Đăng ký thất bại");

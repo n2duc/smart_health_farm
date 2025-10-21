@@ -1,6 +1,5 @@
 import { Leaf } from "lucide-react";
-import SectionHeading from "../section-heading";
-import SectionWrapper from "../section-wrapper";
+import { SectionHeading, SectionWrapper } from "@/components/site";
 import { FarmItem } from "@/types/farm";
 import { FarmCard } from "@/components/common";
 

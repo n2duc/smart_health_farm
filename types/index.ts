@@ -3,5 +3,5 @@ export interface FeatureItem {
   title: string;
   description: string;
   list: string[];
-  href: string;
+  href?: string;
 }

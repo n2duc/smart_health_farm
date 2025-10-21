@@ -1,6 +1,5 @@
 import { ProductItem } from "@/types/product"
-import SectionWrapper from "../section-wrapper"
-import SectionHeading from "../section-heading"
+import { SectionHeading, SectionWrapper } from "@/components/site";
 import { ProductCard } from "@/components/common"
 import { Button } from "@/components/ui/button"
 

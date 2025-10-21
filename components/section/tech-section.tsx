@@ -1,6 +1,5 @@
 import { Brain, MessageCircle, QrCode, Sparkles, Star, TrendingUp } from "lucide-react";
-import SectionHeading from "../section-heading";
-import SectionWrapper from "../section-wrapper";
+import { SectionHeading, SectionWrapper } from "@/components/site";
 import { FeatureCard } from "@/components/common";
 import { Button } from "@/components/ui/button";
 import Link from "next/link";
